@@ -1,0 +1,11 @@
+{
+  "name": "netsuite-packing-list",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NetSuite SuiteScript 2.1 packing-list Suitelet",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/FileCabinet/SuiteScripts/PackingList/render.js && node --check src/FileCabinet/SuiteScripts/PackingList/packing-list.js"
+  },
+  "engines": { "node": ">=20" }
+}
